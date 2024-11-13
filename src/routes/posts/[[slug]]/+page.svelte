@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { Data } from "$lib/types";
 
-	let {data }  = $props() as Data;
+	let { data }  = $props() as Data;
   let Comp = data.content;
 
 </script>
